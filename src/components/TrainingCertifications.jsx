@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import CertificationModal from './CertificationModal';
-import fullStackImage from '../assets/certificates/iie.png';
-import reactNativeImage from '../assets/certificates/dereja.png';
+import iie from '../assets/certificates/iie.png';
+import dereja from '../assets/certificates/dereja.png';
+import orange from '../assets/certificates/modeling.png';
+import orange1 from '../assets/certificates/angular.png';
 // Import other certification images as needed
 
 const TrainingCertifications = () => {
@@ -12,15 +14,26 @@ const TrainingCertifications = () => {
       title: 'PRESIDENTIAL MENTORSHIP PROGRAM',
       institution: 'The Power of International Education',
       description: 'A comprehensive course covering front-end and back-end web development technologies.',
-      image: fullStackImage
+      image: iie
     },
     {
       title: 'DEREJA ACADEMY ACCELERATOR PROGRAM',
       institution: 'Dereja',
       description: 'A course on building mobile applications using React Native.',
-      image: reactNativeImage
+      image: dereja
     },
-    // Add more trainings and certifications as needed
+    {
+      title: '2D AND 3D MODELING FOR MODERN DEVELOPMENT',
+      institution: 'Orange Digital Center',
+      description: 'A comprehensive course covering front-end and back-end web development technologies.',
+      image: orange
+    },
+    {
+      title: 'FRONT END DEVELOPMENT WITH ANGULAR',
+      institution: 'Orange Digital Center',
+      description: 'A course on building mobile applications using React Native.',
+      image: orange1
+    },
   ];
 
   return (
