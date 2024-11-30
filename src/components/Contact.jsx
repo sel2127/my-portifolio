@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="mb-8 py-8 bg-gray-800">
+    <section id="contact" className="mb-8 py-8 bg-gray-800 font-serif">
       <h2 className="text-5xl font-bold mb-6 text-center text-white">Contact Me</h2>
       <div className="flex justify-center">
         <form

@@ -38,8 +38,8 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="projects" className="mb-8 py-8">
-      <h2 className="text-5xl font-bold mb-8 text-center text-primary">Projects</h2>
+    <section id="projects" className="mb-8 py-8 font-serif">
+      <h2 className="text-5xl font-bold mb-8 text-center text-primary font-serif">Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all duration-300">

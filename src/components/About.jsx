@@ -27,7 +27,7 @@ const About = () => {
   }, [slides.length]);
 
   return (
-    <section id="about" className="relative py-4 w-full bg-gray-50">
+    <section id="about" className="relative py-4 w-full bg-gray-50 font-serif">
       {/* Main Container */}
       <div className="max-w-6xl mx-auto px-6 sm:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Profile Container */}
@@ -41,7 +41,7 @@ const About = () => {
           />
           {/* Business Card Info */}
           <div>
-            <h2 className="text-2xl font-bold text-primary mb-2">Selina Y</h2>
+            <h2 className="text-2xl font-bold text-primary mb-2">Selina Yeshanew</h2>
             <p className="text-gray-700 mb-1">Software Engineer</p>
             <p className="text-gray-600 text-sm">selinayeshanew21@gmail.com</p>
             <p className="text-gray-600 text-sm">0993758095</p>
